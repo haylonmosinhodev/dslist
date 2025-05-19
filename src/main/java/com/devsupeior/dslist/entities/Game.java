@@ -21,6 +21,7 @@ public class Game {
 	
 	@Column(name = "game_year")
 	private Integer year;
+	
 	private String genre;
 	private String platforms;
 	private Double score;
@@ -93,6 +94,16 @@ public class Game {
 	
 	
 	
+
+
+	public Integer getYear() {
+		return year;
+	}
+
+
+	public void setYear(Integer year) {
+		this.year = year;
+	}
 
 
 	public Double getScore() {
